@@ -1,0 +1,6 @@
+
+window[window["TiktokAnalyticsObject"]].instance("C6IPOEIO6DGUDE0A23MG").setAdvancedMatchingAvailableProperties({"email":true,"phone_number":true,"auto_email":false,"auto_phone_number":false});
+window[window["TiktokAnalyticsObject"]].instance("C6IPOEIO6DGUDE0A23MG").setPixelInfo && window[window["TiktokAnalyticsObject"]].instance("C6IPOEIO6DGUDE0A23MG").setPixelInfo({status: 0, name: "Fiverr x FM pixel", advertiserID: "7036201234709151746", setupMode: 1, partner: "", is_onsite: false });
+window[window["TiktokAnalyticsObject"]].setPCMDomain && window[window["TiktokAnalyticsObject"]].setPCMDomain("fiverr.com");
+window[window["TiktokAnalyticsObject"]].setPCMConfig && window[window["TiktokAnalyticsObject"]].setPCMConfig(null);
+window[window["TiktokAnalyticsObject"]].enableFirstPartyCookie && window[window["TiktokAnalyticsObject"]].enableFirstPartyCookie(true);

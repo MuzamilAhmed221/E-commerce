@@ -1,0 +1,1 @@
+"undefined"!=typeof i18n?i18n.add({"en-US":{days:{full:["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],abbrv:["SU","MO","TU","WE","TH","FR","SA"],short_abbrv:{day_0:"S",day_1:"M",day_2:"T",day_3:"W",day_4:"T",day_5:"F",day_6:"S"}}}}):setTimeout(function(){throw new Error("i18n is not defined 😭")});

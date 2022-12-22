@@ -1,0 +1,1 @@
+"undefined"!=typeof i18n?i18n.add({"en-US":{locale_settings:{choose_language_test:"Choose a language",submit_error_toast:"Something went wrong. Please try again.",currency:{choose_currency:"Choose a currency"},language:{choose_language:"Choose a language"}}}}):setTimeout(function(){throw new Error("i18n is not defined 😭")});
