@@ -1,36 +1,48 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/pagination";
-import { Pagination } from "swiper";
+import "swiper/css/bundle";
+import "./carousel.css";
+import { Pagination, Autoplay, Navigation, EffectCreative } from "swiper";
+import { useEffect, useRef, useState } from "react";
 
 const Carousel = (props) => {
   return (
     <>
       <Swiper
         slidesPerView={1}
-        spaceBetween={50}
-        pagination={{
-          clickable: true,
+        spaceBetween={5}
+        loop={true}
+        // pagination={{
+        //   clickable: true,
+        // }}
+        creativeEffect={{
+          prev: {
+            shadow: true,
+            translate: [0, 0, -400],
+          },
+          next: {
+            translate: ["100%", 0, 0],
+          },
         }}
         breakpoints={{
-          "@0.00": {
+          640: {
             slidesPerView: 1,
-            spaceBetween: 10,
-          },
-          "@0.75": {
-            slidesPerView: 2,
             spaceBetween: 20,
           },
-          "@1.00": {
+          768: {
             slidesPerView: 2,
-            spaceBetween: 40,
+            spaceBetween: 30,
           },
-          "@1.50": {
+          1024: {
             slidesPerView: 3,
-            spaceBetween: 50,
+            spaceBetween: 20,
           },
         }}
-        modules={[Pagination]}
+        autoplay={{
+          delay: 3500,
+          disableOnInteraction: false,
+        }}
+        navigation={true}
+        modules={[Pagination, Autoplay, Navigation]}
         className="mySwiper"
       >
         {props?.children}

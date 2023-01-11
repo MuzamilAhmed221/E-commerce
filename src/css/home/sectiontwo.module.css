@@ -1,0 +1,64 @@
+.deal_item_images {
+  display: flex;
+  height: 40vw;
+  background-image: url("../../assets/images/time-bg.jpg.webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 80px 80px;
+}
+.deals_discriptions {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.deals_discriptions h4 {
+  font-size: 24px;
+  color: var(--hovercolor);
+}
+.deals_discriptions p {
+  padding: 20px 0;
+  text-align: center;
+}
+.deals_discriptions h4 > span {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: var(--fontlight);
+  color: #636363;
+}
+.time_wrapper {
+  width: 70%;
+}
+.time_wrapper {
+  width: 85%;
+  height: 180px;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.time {
+  font-size: 36px;
+  font-family: var(--fontbold);
+  color: var(--hovercolor);
+  padding: 8px 12px;
+  background-color: white;
+  height: fit-content;
+  font-weight: 600;
+}
+.time h5 {
+  color: var(--fadecolor);
+  font-size: 16px;
+  font-family: var(--fontlight);
+  text-transform: uppercase;
+}
+.shopnowbtn {
+  padding: 15px 30px;
+  background-color: var(--hovercolor);
+  text-transform: uppercase;
+  font-weight: 600;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}

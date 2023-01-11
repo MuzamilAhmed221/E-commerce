@@ -1,0 +1,108 @@
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  width: 10px !important;
+  height: 100px !important;
+  top: 32%;
+  right: 10px;
+  color: #000 !important;
+  fill: black !important;
+  stroke: black !important;
+  z-index: 10;
+}
+
+/* custom carousel */
+/* .wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #daf7a6;
+  overflow: hidden;
+}
+
+.frame {
+  border: 10px solid #ff8e00;
+  width: 100%;
+  overflow: hidden;
+}
+
+.box-container {
+  display: flex;
+}
+
+.box {
+  box-sizing: border-box;
+  border: 5px solid #fff;
+  background: #00e7ff;
+  width: 100px;
+  height: 100px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-container {
+  display: flex;
+}
+
+.button {
+  background: #666;
+  color: #fff;
+  width: 50px;
+  text-align: center;
+  padding: 10px 20px;
+  margin: 10px;
+  user-select: none;
+  cursor: pointer;
+}
+
+.button-2-container {
+  display: flex;
+}
+
+.button-2 {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  background: #e0e0e0;
+  margin: 6px;
+  cursor: pointer;
+}
+
+.active {
+  background: #999;
+} */

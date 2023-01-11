@@ -90,9 +90,9 @@ const Navbar = () => {
             </span>
           </div>
           <ul>
-            {navItems.map((item) => {
+            {navItems.map((item, index) => {
               return (
-                <li>
+                <li key={index}>
                   <a href="">{item}</a>
                 </li>
               );
