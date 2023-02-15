@@ -1,3 +1,8 @@
+import { CgFacebook, CgInstagram} from "react-icons/cg";
+import {  TfiTwitterAlt} from "react-icons/tfi";
+
+import { IoLogoPinterest } from "react-icons/io";
+
 export const navItems = [
   "home",
   "shop",
@@ -67,3 +72,37 @@ export const mens_cat = [
   },
 ];
 export const categoryname = ["Clothings", "Handbag", "Shoes", "Accessories"];
+export const collectionGallery = [
+  {
+    img: require("https://preview.colorlib.com/theme/fashi/img/insta-1.jpg"),
+    username: "colorlib_Collection",
+  },
+  {
+    img: require("https://preview.colorlib.com/theme/fashi/img/insta-2.jpg"),
+    username: "colorlib_Collection",
+  },
+  {
+    img: require("https://preview.colorlib.com/theme/fashi/img/insta-3.jpg"),
+    username: "colorlib_Collection",
+  },
+  {
+    img: require("https://preview.colorlib.com/theme/fashi/img/insta-1.jpg"),
+    username: "colorlib_Collection",
+  },
+  {
+    img: require("https://preview.colorlib.com/theme/fashi/img/insta-1.jpg"),
+    username: "colorlib_Collection",
+  },
+  {
+    img: require("https://preview.colorlib.com/theme/fashi/img/insta-1.jpg"),
+    username: "colorlib_Collection",
+  },
+];
+export const information = ["About us", "checkout", "contact", "serivius"];
+export const myAccount = ["my account ", "contact", "shopping cart", "shop"];
+export const socialIcon = [
+  <CgFacebook />,
+  <CgInstagram />,
+  <TfiTwitterAlt />,
+  <IoLogoPinterest />,
+];

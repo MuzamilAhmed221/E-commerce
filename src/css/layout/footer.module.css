@@ -1,0 +1,125 @@
+.wrapper {
+  width: 100vw;
+  margin-top: 80px;
+}
+.brands_wrap {
+  height: 120px;
+  background-color: #303030;
+}
+.footer_top_brands {
+  display: flex;
+  height: 100%;
+}
+.brand_logo_wrapper {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+.brand_logo {
+  width: 150px;
+  height: 38px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.footer_section {
+  background-color: #212529;
+  padding: 80px;
+}
+.footer_section p {
+  color: #b2b2b2;
+  font-weight: 700;
+}
+.section_row {
+  display: flex;
+}
+.shop_info_col {
+  flex: 2.2;
+}
+
+.footer_img {
+  width: 90px;
+  height: 25px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-bottom: 20px;
+}
+.footer_nav_col {
+  flex: 1;
+  text-transform: capitalize;
+}
+.footer_nav_col p {
+  margin-top: 10px;
+}
+.footer_section h6 {
+  font-size: 18px;
+  color: white;
+  margin-bottom: 20px;
+}
+.newsletter_col {
+  flex: 2;
+}
+.subscribe_input_wrap {
+  width: 100%;
+  height: 45px;
+  display: flex;
+  margin-top: 20px;
+}
+.subscribe_input_wrap input {
+  width: 65%;
+  height: 100%;
+  background-color: #303030;
+  padding-left: 15px;
+  font-size: 16px;
+  border-style: none;
+  outline: none;
+}
+
+.subscribe_input_wrap button {
+  width: 35%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--hovercolor);
+  font-size: 12px;
+  text-transform: uppercase;
+  font-family: var(--fontbold);
+  color: white;
+}
+.social_icon_wrap{
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+.social_icon{
+width: 40px;
+height: 40px;
+background-color: #434445;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50px;
+color: white;
+font-size: 18px;
+}
+
+@media only screen and (max-width: 1080px){
+.section_row{
+  display: block;
+}
+.footer_section h6{
+  margin-top: 20px;
+}
+.subscribe_input_wrap input{
+  width: 80%;
+}
+.subscribe_input_wrap button{
+  width: 20%;
+}
+}
+@media only screen and (max-width: 1080px){
+
+}

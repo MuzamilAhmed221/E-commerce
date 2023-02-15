@@ -14,6 +14,7 @@ import {
 import { BsHeart, BsBag, BsSearch } from "react-icons/bs";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { navItems } from "../../helper/Helper";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -93,7 +94,7 @@ const Navbar = () => {
             {navItems.map((item, index) => {
               return (
                 <li key={index}>
-                  <a href="">{item}</a>
+                <Link to={`/${index != 0 ? item: ""}`}>{item}</Link>
                 </li>
               );
             })}
