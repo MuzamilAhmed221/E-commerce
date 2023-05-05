@@ -1,5 +1,5 @@
-import { CgFacebook, CgInstagram} from "react-icons/cg";
-import {  TfiTwitterAlt} from "react-icons/tfi";
+import { CgFacebook, CgInstagram } from "react-icons/cg";
+import { TfiTwitterAlt } from "react-icons/tfi";
 
 import { IoLogoPinterest } from "react-icons/io";
 
@@ -106,3 +106,75 @@ export const socialIcon = [
   <TfiTwitterAlt />,
   <IoLogoPinterest />,
 ];
+export const brand_name = ["calvin kein", "diesel", "polo", "tommy hilfiger"];
+
+export const colorFilter = [
+  { name: "black", hex: "#000" },
+  { name: "violet", hex: "#8230E3" },
+  { name: "blue", hex: "#2773BE" },
+  { name: "yellow", hex: "#EEEE21" },
+  { name: "red", hex: "#DC3232" },
+  { name: "green", hex: "#81D742" },
+];
+export const tagsfilter = [
+ 'towel','shoes','coat','dresses','trousers',"men's hat",'backpack'
+];
+
+export const ShopProductCards=[
+  {
+    name: "Guangzhou sweater",
+    category: "Shoes",
+    price: 10.0,
+    sale: 9.0,
+    displayImage: require("../assets/images/women-1.jpg.webp"),
+  },
+  {
+    name: "Guangzhou sweater",
+    category: "Towel",
+    price: 13.0,
+    sale: null,
+    displayImage: require("../assets/images/women-2.jpg.webp"),
+  },
+  {
+    name: "Guangzhou sweater",
+    category: "coat",
+    price: 55.0,
+    sale: null,
+    displayImage: require("../assets/images/women-3.jpg.webp"),
+  },
+  {
+    name: "Guangzhou sweater",
+    category: "towel",
+    price: 34.0,
+    sale: null,
+    displayImage: require("../assets/images/women-4.jpg.webp"),
+  },
+  {
+    name: "Guangzhou sweater",
+    category: "Shoes",
+    price: 10.0,
+    sale: 9.0,
+    displayImage: require("../assets/images/man-1.jpg.webp"),
+  },
+  {
+    name: "Guangzhou sweater",
+    category: "Towel",
+    price: 13.0,
+    sale: null,
+    displayImage: require("../assets/images/man-2.jpg.webp"),
+  },
+  {
+    name: "Guangzhou sweater",
+    category: "coat",
+    price: 55.0,
+    sale: null,
+    displayImage: require("../assets/images/man-3.jpg.webp"),
+  },
+  {
+    name: "Guangzhou sweater",
+    category: "towel",
+    price: 34.0,
+    sale: 24.0,
+    displayImage: require("../assets/images/man-4.jpg.webp"),
+  },
+]

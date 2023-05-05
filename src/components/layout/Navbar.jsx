@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import styles from "../../css/layout/navbar.module.css";
 import { IoMdMail } from "react-icons/io";
 import { ImPhone } from "react-icons/im";
@@ -14,9 +14,12 @@ import {
 import { BsHeart, BsBag, BsSearch } from "react-icons/bs";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { navItems } from "../../helper/Helper";
-import { Link } from "react-router-dom";
+import { Link ,useLocation} from "react-router-dom";
 
-const Navbar = () => {
+
+const Navbar = (props) => {
+  const location = useLocation()
+ 
   return (
     <div className={styles.wrapper}>
       <div className={styles.top_contacts_wrapper}>
@@ -93,8 +96,15 @@ const Navbar = () => {
           <ul>
             {navItems.map((item, index) => {
               return (
-                <li key={index}>
-                <Link to={`/${index != 0 ? item: ""}`}>{item}</Link>
+                <li
+                  key={index}
+                  style={{
+                    backgroundColor:
+                    location.pathname === `/${index != 0 ? item : ""}` &&
+                      "var(--hovercolor)",
+                  }}
+                >
+                  <Link to={`/${index != 0 ? item : ""}`}>{item}</Link>
                 </li>
               );
             })}

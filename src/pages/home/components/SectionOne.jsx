@@ -1,10 +1,5 @@
-import { style } from "@mui/system";
-import { Link } from "react-router-dom";
-import Carousel from "../../../components/carousal";
 import styles from "../../../css/home/sectionone.module.css";
-import { BsBag, BsHeart, BsShuffle } from "react-icons/bs";
-import { SwiperSlide } from "swiper/react";
-import { categoryname, mens_cat, womens_cat } from "../../../helper/Helper";
+import {  womens_cat } from "../../../helper/Helper";
 import { useState } from "react";
 import CategorySlider from "./CategorySlider";
 
@@ -38,6 +33,7 @@ const SectionOne = () => {
         })}
       </div>
       <CategorySlider
+      className={`container_fluid ${styles.cat_products_wrap}`}
         categories={womens_cat}
         posterimage={require("../../../assets/images/women-large.jpg.webp")}
         postername="Women's"

@@ -1,17 +1,20 @@
 .deal_item_images {
   display: flex;
-  height: 40vw;
   background-image: url("../../assets/images/time-bg.jpg.webp");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   padding: 80px 80px;
+  margin-top: 80px;
 }
 .deals_discriptions {
   width: 500px;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.deals_discriptions h3{
+  text-align: center;
 }
 .deals_discriptions h4 {
   font-size: 24px;
@@ -27,13 +30,10 @@
   font-family: var(--fontlight);
   color: #636363;
 }
-.time_wrapper {
-  width: 70%;
-}
+
 .time_wrapper {
   width: 85%;
   height: 180px;
-
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -61,4 +61,34 @@
   color: white;
   font-size: 14px;
   cursor: pointer;
+}
+.cat_products_wrap_reverse{
+  flex-direction: row-reverse;
+}
+@media only screen and (max-width: 1080px) {
+  .cat_products_wrap_reverse{
+    flex-direction: column;
+  }
+  .deal_item_images {
+    height: auto;
+    padding: 80px 40px;
+  }
+  .deals_discriptions {
+    width: 100%;
+  }
+  .time_wrapper{
+   justify-content: center;
+   gap: 20px;
+  }
+}
+@media only screen and (max-width:569px){
+  .time_wrapper{
+    gap: 10px;
+   }
+   .time{
+    font-size: 24px;
+   }
+   .time h5{
+    font-size: 12px;
+   }
 }

@@ -1,0 +1,112 @@
+.wrapper {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+}
+.filters_wrapper {
+  width: 25%;
+}
+.filters_wrapper h5 {
+  font-size: 22px;
+  margin-bottom: 30px;
+  color: var(--black);
+}
+
+.categories_wrap li {
+  margin-bottom: 20px;
+}
+.brand {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.brand label {
+  margin-left: 10px;
+  font-family: var(--fontlight);
+  text-transform: capitalize;
+}
+.Pricefilter_wrap button {
+  font-size: 12px;
+  text-transform: uppercase;
+  padding: 10px 25px;
+  color: white;
+  font-family: var(--fontbold);
+  border-radius: 3px;
+  background-color: var(--hovercolor);
+  margin-bottom: 20px;
+}
+.colorfilter_wrap ul {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+}
+.colorfilter_wrap li {
+  width: calc(100% / 2);
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+.color_circle {
+  width: 18px;
+  height: 18px;
+  margin-right: 15px;
+  border-radius: 50px;
+}
+.size_boxes_wrapper {
+  display: flex;
+  gap: 10px;
+}
+.size_box {
+  width: 45px;
+  height: 40px;
+  border: 1px solid #e5e5e5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+}
+.box_active {
+  background-color: var(--black);
+  color: white;
+}
+.tags_wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.tags {
+  padding: 8px 15px;
+  border: 1px solid #e5e5e5;
+  color: var(--pfontcolor);
+  font-family: var(--fontlight);
+  text-transform: capitalize;
+}
+.productcard_wrap {
+  width: 72%;
+}
+.product_sorting_wrap {
+  display: flex;
+  height: 40px;
+}
+.default_sorting select {
+  width: 200px;
+  height: 100%;
+  color: var(--pfontcolor);
+  font-size: 15px;
+  border: 1px solid #e5e5e5;
+  padding: 0 10px;
+}
+.product_sorting_wrap p{
+  margin-left: auto;
+  margin-top: 10px;
+}
+.cards{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 40px;
+}

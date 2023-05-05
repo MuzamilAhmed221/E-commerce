@@ -3,11 +3,10 @@ import Carousel from "../../../components/carousal";
 import styles from "../../../css/home/sectionone.module.css";
 import { BsBag, BsHeart, BsShuffle } from "react-icons/bs";
 import { SwiperSlide } from "swiper/react";
-import { categoryname, womens_cat } from "../../../helper/Helper";
 import { useState } from "react";
 
 const CategorySlider = (props) => {
-  const { style, categories, posterimage, postername } = props;
+  const { style, categories, posterimage, postername,className } = props;
   const [categoryToggle, setCategoryToggle] = useState("Clothings");
 
   let cat = ["Men's", "Women's", "Kid's"];
@@ -17,8 +16,7 @@ const CategorySlider = (props) => {
   };
   return (
     <div
-      className={`container_fluid ${styles.cat_products_wrap} `}
-      style={style}
+      className={className}
     >
       <div
         className={styles.cat_poster}

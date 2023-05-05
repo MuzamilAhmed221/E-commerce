@@ -15,6 +15,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   position: relative;
+  overflow-x: hidden;
 }
 
 * {
@@ -25,7 +26,7 @@ body {
 
 :root {
   --hovercolor: #e7ab3c;
-  --black: #252525;
+  --black: #444444;
   --pfontcolor: #636363;
   --fadecolor: #b2b2b2;
   --fontlight: "Muli-Light";
